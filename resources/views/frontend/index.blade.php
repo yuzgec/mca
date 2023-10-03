@@ -68,6 +68,12 @@
                             <p class="card-text">Mustafa Kemal Atatürk Mah. Ali Stair Cad. No:2/1C Oasis Marina <br>
                                 info@mcayacht.com</p>
 
+                            @if (\Session::has('success'))
+                                <div class="contact-form-success alert alert-success mt-4">
+                                    <strong>Success!</strong> {!! \Session::get('success') !!}
+                                </div>
+                            @endif
+
                             <form class="contact-form" action="{{ route('form') }}" method="POST">
                                 @csrf
                                 <div class="row">
