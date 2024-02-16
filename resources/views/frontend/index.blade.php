@@ -60,13 +60,13 @@
                         <div class="card-body p-2 m-2 text-center">
 
                             <div class="">
-                                <img src="/logo.png" class="img-fluid" alt="Trinity Türkiye Sınav Merkezi" style="width: 350px;margin-bottom:25px">
+                                <img src="/logo.png" class="img-fluid" alt="Trinity Türkiye Sınav Merkezi" style="width: 250px;margin-bottom:25px">
                             </div>
 
                             <h4 class="card-title mb-1 text-6" style="color: black;">Telefon :  0 232 382 05 25 </h4>
                             <p class="card-text">Nergiz Mahallesi 1775/6 Sokak No:4/A 35560 Karşıyaka/İZMİR<br>
                                 info@trinitycollegeturkey.com<br>
-                            Gökçer<strong>BAŞAR</strong></p>
+                            Gökçer<strong> BAŞAR</strong></p>
 
                             @if (\Session::has('success'))
                                 <div class="contact-form-success alert alert-success mt-4">
