@@ -22,24 +22,6 @@ class ViewShareProvider extends ServiceProvider
     {
 
 
-        if (! app()->runningInConsole()) {
-            Paginator::useBootstrap();
-            //config()->set('settings', Setting::pluck('value','item')->all());
-
-           $Pages = Cache::remember('pages',now()->addYear(1), function () {
-                return Page::with('getCategory')->get();
-            });
-
-            $ProductCategory = Cache::remember('product_categories',now()->addYear(1), function () {
-                return ProductCategory::with('getProduct')->where('status', '=', 1)->get();
-            });
-            $Product = Product::with(['getCategory'])->get();
-
-            View::share([
-                'Pages' => $Pages,
-                'ProductCategory' => $ProductCategory,
-                'Product' => $Product,
-            ]);
-       }
+       
     }
 }
