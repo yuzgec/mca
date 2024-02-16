@@ -22,10 +22,11 @@ class HomeController extends Controller
         $New->save();
 
         Mail::send("frontend.mail.form",compact('request'),function ($message) use($request) {
-            $message->to('info@mcayacht.com')->subject($request->name.' MCA Website Form');
+            $message->to('info@trinitycollegeturkey.com')->subject($request->name.' Trinity Form');
         });
 
-        return redirect()->back()->with('success', 'We received your message successfully. We will contact you as soon as possible.');
+        return redirect()->back()->with('success', 'Mesajınızı başarıyla aldık. En kısa zamanda sizinle iletişime geçeceğiz.
+        ');
 
     }
 }

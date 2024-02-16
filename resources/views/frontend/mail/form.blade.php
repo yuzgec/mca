@@ -131,7 +131,7 @@
                 <tbody>
                 <tr>
                     <td>
-                        <img src="https://www.mcayacht.com/logo.png" alt="" style="margin-bottom: 10px;width: 50%;">
+                        <img src="https://www.trinitycollegeturkey.com/logo.png" alt="" style="margin-bottom: 10px;width: 50%;">
                     </td>
                 </tr>
 

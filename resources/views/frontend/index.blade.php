@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MCA Yacht | Oasis Marina YeniFoça </title>
+    <title>Trinity Türkiye Sınav Merkezi | Trinity Colle London </title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
@@ -46,31 +46,31 @@
             <div class="owl-stage-outer">
                 <div class="owl-stage">
                     <div class="owl-item position-relative pt-5"
-                         style="background-image: url('/1.jpg'); background-size: cover; background-position: center;">
+                         style="background:#4f1948;">
                     </div>
                     <div class="owl-item position-relative pt-5"
-                         style="background-image: url('/2.jpg'); background-size: cover; background-position: center;">
-                    </div>
-                    <div class="owl-item position-relative pt-5"
-                         style="background-image: url('/3.jpg'); background-size: cover; background-position: center;">
-                    </div>
+                    style="background:#4f1948;">
+               </div>
+               <div class="owl-item position-relative pt-5"
+               style="background:#4f1948;">
+          </div>
                 </div>
                 <div class="position-absolute form-cerceve">
                     <div class="card border-radius border-0 box-shadow-1 mb-5" style="background-color: rgba(255,255,255,.9);">
                         <div class="card-body p-2 m-2 text-center">
 
                             <div class="">
-                                <img src="/logo2.png" class="img-fluid" alt="SeaWind Catamarans">
-                                <img src="/logo1.png" class="img-fluid" alt="MCA Yacht Oasis Marina Yenifoça">
+                                <img src="/logo.png" class="img-fluid" alt="Trinity Türkiye Sınav Merkezi" style="width: 350px;margin-bottom:25px">
                             </div>
 
-                            <h4 class="card-title mb-1 text-6" style="color: black;">Phone :  +90 532 494 66 70 </h4>
-                            <p class="card-text">Mustafa Kemal Atatürk Mah. Ali Stair Cad. No:2/1C Oasis Marina <br>
-                                info@mcayacht.com</p>
+                            <h4 class="card-title mb-1 text-6" style="color: black;">Telefon :  0 232 382 05 25 </h4>
+                            <p class="card-text">Nergiz Mahallesi 1775/6 Sokak No:4/A 35560 Karşıyaka/İZMİR<br>
+                                info@trinitycollegeturkey.com<br>
+                            Gökçer<strong>BAŞAR</strong></p>
 
                             @if (\Session::has('success'))
                                 <div class="contact-form-success alert alert-success mt-4">
-                                    <strong>Success!</strong> {!! \Session::get('success') !!}
+                                    <strong>Başarılı!</strong> {!! \Session::get('success') !!}
                                 </div>
                             @endif
 
@@ -78,17 +78,17 @@
                                 @csrf
                                 <div class="row">
                                     <div class="form-group col text-start">
-                                        <input type="text" placeholder="Name Surname*" class="form-control text-2-5 input-bosluk" name="name" required value="{{ old('name') }}">
+                                        <input type="text" placeholder="Adınız Soyadınız*" class="form-control text-2-5 input-bosluk" name="name" required value="{{ old('name') }}">
                                         <input type="email"  placeholder="Email*"  class="form-control text-2-5 input-bosluk" name="email" required value="{{ old('email') }}">
-                                        <input type="text" placeholder="Subject*" class="form-control text-2-5 input-bosluk" name="subject" value="{{ old('subject') }}">
-                                        <textarea type="text" placeholder="Message*" class="form-control text-2-5" rows="3" name="message" required></textarea>
+                                        <input type="text" placeholder="Konu*" class="form-control text-2-5 input-bosluk" name="subject" value="{{ old('subject') }}">
+                                        <textarea type="text" placeholder="Mesajınız*" class="form-control text-2-5" rows="3" name="message" required></textarea>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="form-group col">
                                         <div class="d-grid gap-2">
-                                            <button type="submit" value="SEND" class="btn border-0 btn-primary text-color-primary text-3-5 p-1">
-                                                SEND
+                                            <button type="submit" value="Gönder" class="btn border-0 btn-primary text-color-primary text-3-5 p-1">
+                                                Gönder
                                             </button>
                                         </div>
                                     </div>
@@ -98,6 +98,7 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
 
         </div>
