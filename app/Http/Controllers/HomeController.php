@@ -14,12 +14,12 @@ class HomeController extends Controller
 
     public function form(OrderRequest $request){
 
-        $New = new Contact;
-        $New->name =  $request->name;
-        $New->subject =  $request->subject;
-        $New->email =  $request->email;
-        $New->message =  $request->message;
-        $New->save();
+        // $New = new Contact;
+        // $New->name =  $request->name;
+        // $New->subject =  $request->subject;
+        // $New->email =  $request->email;
+        // $New->message =  $request->message;
+        // $New->save();
 
         Mail::send("frontend.mail.form",compact('request'),function ($message) use($request) {
             $message->to('info@trinitycollegeturkey.com')->subject($request->name.' Trinity Form');
