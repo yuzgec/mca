@@ -24,7 +24,7 @@ class ViewShareProvider extends ServiceProvider
 
         if (! app()->runningInConsole()) {
             Paginator::useBootstrap();
-            config()->set('settings', Setting::pluck('value','item')->all());
+            //config()->set('settings', Setting::pluck('value','item')->all());
 
            $Pages = Cache::remember('pages',now()->addYear(1), function () {
                 return Page::with('getCategory')->get();
