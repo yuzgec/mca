@@ -16,7 +16,8 @@
         .form-cerceve {
             bottom:15%;
             right:30%;
-            width:35%
+            width:35%;
+            top:3%;
         }
         .input-bosluk{
             margin-bottom: 10px;
