@@ -162,6 +162,16 @@
                         <b>{{ $request->email }}</b>
                     </td>
                 </tr>
+
+                <tr>
+                    <td colspan="2" style="line-height: 49px;font-size: 13px;color: #000000;
+                                    padding-left: 20px;text-align:left;border-right: unset;">Telefon :</td>
+                    <td colspan="3" class="price"
+                        style="
+                                        line-height: 49px;text-align: right;padding-right: 28px;font-size: 13px;color: #000000;text-align:right;border-left: unset;">
+                        <b>{{ $request->phone }}</b>
+                    </td>
+                </tr>
                 <tr>
                     <td colspan="2" style="line-height: 49px;font-size: 13px;color: #000000;
                                     padding-left: 20px;text-align:left;border-right: unset;">Konu :</td>

@@ -81,6 +81,7 @@
                                     <div class="form-group col text-start">
                                         <input type="text" placeholder="Adınız Soyadınız*" class="form-control text-2-5 input-bosluk" name="name" required value="{{ old('name') }}">
                                         <input type="email"  placeholder="Email*"  class="form-control text-2-5 input-bosluk" name="email" required value="{{ old('email') }}">
+                                        <input type="text"  placeholder="Telefon*"  class="form-control text-2-5 input-bosluk" name="phone" required value="{{ old('phone') }}">
                                         <input type="text" placeholder="Konu*" class="form-control text-2-5 input-bosluk" name="subject" value="{{ old('subject') }}">
                                         <textarea type="text" placeholder="Mesajınız*" class="form-control text-2-5" rows="3" name="message" required></textarea>
                                     </div>
